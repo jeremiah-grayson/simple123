@@ -9,10 +9,16 @@ public class Calculations
 	{
 		System.out.println(c);
 	}
+	public void sub()
+	{
+		System.out.println("sub");
+		//sub
+	}
 	public static void main(String args[])
 	{
 		Calculations cl=new Calculations();
 		cl.add();
 		//new branch is created.
+		System.out.println("WELCOME");
 	}
 }
